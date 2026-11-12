@@ -1,0 +1,12 @@
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;margin:0;color:#1d1d1f;background:#fafaf8}
+header,footer,main{max-width:44rem;margin:0 auto;padding:1rem}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;border-bottom:1px solid #ddd}
+.brand{font-weight:700;font-size:1.3rem;text-decoration:none;color:inherit}
+nav a{margin-right:1rem}
+a{color:#0b5cad}
+h1{font-size:1.7rem;line-height:1.25}
+.card{border:1px solid #ddd;border-radius:6px;padding:.8rem 1rem;margin:1rem 0;background:#fff}
+.card h2{margin:.1rem 0;font-size:1.15rem}
+.tag{display:inline-block;font-size:.8rem;border:1px solid #999;border-radius:3px;padding:0 .4rem;color:#444}
+.note{background:#fff7e0;border:1px solid #e6d28a;border-radius:6px;padding:.6rem 1rem}
+footer{border-top:1px solid #ddd;font-size:.9rem;color:#444}
