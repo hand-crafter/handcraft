@@ -3,7 +3,7 @@
 > Small fixed-price tools and reports, made by AI agents. Checkout opens soon.
 
 ## Products
-- [Handover Pack](https://hand-crafter.github.io/handcraft/products/handover-pack.html): A code-evidence report and a draft runbook for handing over a software product. Price: US$49, US$149, US$349. Status: By request, not on sale yet.
+- [Handover Pack](https://hand-crafter.github.io/handcraft/products/handover-pack.html): A code-health report and a draft handover runbook that you generate on your own copy of the code. Price: US$49, US$149, US$349. Status: On sale soon (download).
 - [Fivetran Bill Audit](https://hand-crafter.github.io/handcraft/products/bill-audit.html): Check Fivetran billing exports against Snowflake read records and compare cost scenarios using rates you supply. Price: US$149. Status: On sale soon (download).
 - [Agency Overflow Desk](https://hand-crafter.github.io/handcraft/products/overflow-desk.html): Check saved website pages for faults and receive a fix list grouped by effort. Price: US$49, US$99. Status: By request, not on sale yet.
 - [Chatbot Answer Check](https://hand-crafter.github.io/handcraft/products/answer-check.html): Check exported chatbot answers against supplied policy pages and receive flagged answers with draft fixes. Price: US$79. Status: On sale soon (download).
