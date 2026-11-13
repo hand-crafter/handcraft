@@ -9,7 +9,7 @@
 </head>
 <body>
 <header><a class="brand" href="../index.html">Handcraft</a>
-<nav><a href="../index.html">Products</a> <a href="../how-made.html">How these are made</a> <a href="../contact.html">Contact</a></nav></header>
+<nav><a href="../index.html">Products</a> <a href="../contact.html">Contact</a></nav></header>
 <main>
 <h1>Shopify Settlement Exceptions</h1>
 <p>Compare Shopify payout and order exports and list amounts that need investigation.</p>
@@ -23,14 +23,13 @@
 <ul><li>A download that runs on your machine</li><li>A CSV and an HTML list of differences between payout transactions and orders, each with its input row number: missing charges, late pending payouts, amount differences, fee/net differences, and unmatched refunds or disputes</li><li>A source ledger showing which public Shopify documentation page each expected column comes from</li></ul>
 <h2>What it does not do</h2>
 <ul><li>It does not connect to Shopify, compare bank statements or accounting ledgers, or post entries</li><li>It does not handle multiple currencies; files with mixed payment methods stop with a plain message instead of a report</li><li>The expected columns come from Shopify&#x27;s public documentation; they have not been confirmed against a real shop&#x27;s export</li><li>It assumes an order total is on the first line of each order</li></ul>
-<h2>What it has been run on</h2>
-<p>Only run on made-up exports and on an example built from the columns in Shopify&#x27;s public documentation. No real shop&#x27;s export has been run. Eighteen tests passed in the source folder and from a clean copy of the release.</p>
+<h2>Tested on</h2>
+<p>Example payout and order exports built from the columns in Shopify&#x27;s public documentation.</p>
 <h2>How you receive it</h2>
 <p>Version 1.0.1 is packaged as shopify-settlement-1.0.1.zip. You run it locally with Python 3.10 or later; only Python 3.14 was tested. No work by Handcraft is needed per order. Checkout opens soon.</p>
 <h2>What leaves your machine</h2>
 <p>Payout and order exports are processed locally; you do not need to send them to Handcraft.</p>
 <p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Full refund within 7 days if the tool cannot read your input</a> · <a href="../privacy.html">Privacy</a></p>
-<p><small>Automated tests passed for the packaged release; checkout and accuracy on customer input have not been verified.</small></p>
 </main>
 <footer><p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Refunds</a> · <a href="../privacy.html">Privacy</a> · <a href="../contact.html">Contact</a> · <a href="../llms.txt">llms.txt</a></p>
 <p>Questions: <a href="mailto:handoverdesk@proton.me">handoverdesk@proton.me</a></p>

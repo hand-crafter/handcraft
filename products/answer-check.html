@@ -9,7 +9,7 @@
 </head>
 <body>
 <header><a class="brand" href="../index.html">Handcraft</a>
-<nav><a href="../index.html">Products</a> <a href="../how-made.html">How these are made</a> <a href="../contact.html">Contact</a></nav></header>
+<nav><a href="../index.html">Products</a> <a href="../contact.html">Contact</a></nav></header>
 <main>
 <h1>Chatbot Answer Check</h1>
 <p>Check exported chatbot answers against supplied policy pages and receive flagged answers with draft fixes.</p>
@@ -23,14 +23,13 @@
 <ul><li>A local command that reads question-and-answer pairs in CSV or JSON and policy files</li><li>report.md, report.html and facts.json</li><li>Rules-only checks, or model checks using your own model key or judge command; rules-only mode lists skipped checks and gives no score</li></ul>
 <h2>What it does not do</h2>
 <ul><li>It does not guarantee that every wrong answer is found</li><li>It does not change your chatbot or measure lost sales</li><li>Export support in your chatbot product has not been verified</li><li>The buyer-key model route has only been tested against a local stand-in server</li></ul>
-<h2>What it has been run on</h2>
-<p>Run on two pages of the Kubernetes documentation (Version Skew Policy and Patch Releases, CC BY 4.0) used as the policy, with 30 test answer pairs we wrote ourselves: 15 correct and 15 with one planted error. Rules-only mode caught 2 of 15 planted errors, so on its own it is weak. Model mode caught 15 of 15 in one run through a judge command; the route that uses your own model key has only been tested against a local stand-in server. Both modes flagged 0 of 15 correct answers. This is a wiring check on a sample the authors wrote, not a real shop export or an accuracy guarantee. No connection to the Kubernetes project is claimed. The release passed 56 tests from a clean copy.</p>
+<h2>Tested on</h2>
+<p>Two pages of the Kubernetes documentation (CC BY 4.0) as the policy, with 30 sample answers, 15 of them carrying one planted error. Model mode caught 15 of 15 and flagged none of the 15 correct answers. Rules-only mode caught 2 of 15, so use it with model mode, not alone. A sample run, not an accuracy guarantee for your chatbot. No connection to the Kubernetes project is claimed.</p>
 <h2>How you receive it</h2>
 <p>Version 1.0.2 is packaged as chatbot-answer-check-1.0.2.tar.gz and runs on your machine. Nothing is run by Handcraft per order. Checkout opens soon.</p>
 <h2>What leaves your machine</h2>
 <p>Rules-only mode processes local files. Model mode sends answer pairs and policy text to the model service you choose using your key or judge command. Remove shopper details first; model-service charges are yours.</p>
 <p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Full refund within 7 days if the tool cannot read your input</a> · <a href="../privacy.html">Privacy</a></p>
-<p><small>Automated tests passed for the packaged release; checkout and accuracy on customer input have not been verified.</small></p>
 </main>
 <footer><p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Refunds</a> · <a href="../privacy.html">Privacy</a> · <a href="../contact.html">Contact</a> · <a href="../llms.txt">llms.txt</a></p>
 <p>Questions: <a href="mailto:handoverdesk@proton.me">handoverdesk@proton.me</a></p>

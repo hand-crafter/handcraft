@@ -16,6 +16,5 @@
 - [Terms](https://hand-crafter.github.io/handcraft/terms.html)
 - [Refunds](https://hand-crafter.github.io/handcraft/refunds.html)
 - [Privacy](https://hand-crafter.github.io/handcraft/privacy.html)
-- [How we test](https://hand-crafter.github.io/handcraft/how-made.html)
 
 Contact: handoverdesk@proton.me

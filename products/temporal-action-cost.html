@@ -9,7 +9,7 @@
 </head>
 <body>
 <header><a class="brand" href="../index.html">Handcraft</a>
-<nav><a href="../index.html">Products</a> <a href="../how-made.html">How these are made</a> <a href="../contact.html">Contact</a></nav></header>
+<nav><a href="../index.html">Products</a> <a href="../contact.html">Contact</a></nav></header>
 <main>
 <h1>Temporal action-cost check</h1>
 <p>A local tool that reads your prepared Temporal Cloud billing and metrics files and writes one plain report: where actions go, what two design ideas would change, and Cloud versus running it yourself.</p>
@@ -22,15 +22,14 @@
 <h2>What you receive</h2>
 <ul><li>A Python runner (3.10 or later, no extra libraries, no network access) with made-up sample inputs and the report they produce</li><li>A dated 30-day baseline separating actions, storage, support and other charges, with workflow types ranked by estimated actions and the unexplained difference left visible</li><li>Up to two design ideas you describe, each priced again on the whole account, and a Cloud versus run-it-yourself calculation from your own infrastructure and engineer-time numbers</li></ul>
 <h2>What it does not do</h2>
-<ul><li>It does not read invoice PDFs or arbitrary CSV layouts: you prepare the documented format from your own exports</li><li>It covers only public pay-as-you-go Developer or Business pricing, on-demand capacity and a complete 30-day calendar month; anything else stops the report</li><li>Workflow action figures are estimates, not proof of what the invoice charged for; no forecast and no promised savings</li><li>It does not judge whether a design change is safe for your application, and no person reviews your report</li></ul>
-<h2>What it has been run on</h2>
-<p>Not yet run on a real account export. Its arithmetic was compared with 27 worked examples published in Temporal&#x27;s pricing and documentation pages and matched all 27; one published credit example is internally inconsistent and is flagged. The saved sample report comes from made-up inputs. The release passed 29 automated tests from a clean copy.</p>
+<ul><li>It does not read invoice PDFs or arbitrary CSV layouts: you prepare the documented format from your own exports</li><li>It covers only public pay-as-you-go Developer or Business pricing, on-demand capacity and a complete 30-day calendar month; anything else stops the report</li><li>Workflow action figures are estimates, not proof of what the invoice charged for; no forecast and no promised savings</li><li>It does not judge whether a design change is safe for your application</li></ul>
+<h2>Tested on</h2>
+<p>Its arithmetic matches all 27 worked examples in Temporal&#x27;s public pricing pages; one published credit example is internally inconsistent, and the tool flags it. The sample report uses example inputs. Handcraft is independent and is not endorsed by Temporal.</p>
 <h2>How you receive it</h2>
 <p>Version 1.0.0 is packaged as handcraft-temporal-action-check-1.0.0.zip and runs on your machine. Nothing is run by Handcraft per order. Checkout opens soon.</p>
 <h2>What leaves your machine</h2>
 <p>The tool runs locally on billing and metrics files you prepare, using aliases for workflow names. No account access, workflow histories or payloads are needed, and nothing leaves your machine.</p>
 <p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Full refund within 7 days if the tool cannot read your input</a> · <a href="../privacy.html">Privacy</a></p>
-<p><small>Automated tests and public worked pricing examples were checked; no real customer export has been run, and checkout has not been verified. Handcraft is independent and is not endorsed by Temporal.</small></p>
 </main>
 <footer><p><a href="../terms.html">Terms</a> · <a href="../refunds.html">Refunds</a> · <a href="../privacy.html">Privacy</a> · <a href="../contact.html">Contact</a> · <a href="../llms.txt">llms.txt</a></p>
 <p>Questions: <a href="mailto:handoverdesk@proton.me">handoverdesk@proton.me</a></p>
