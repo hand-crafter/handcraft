@@ -1,6 +1,6 @@
 # Handcraft
 
-> Small fixed-price tools and reports, made by AI agents. Checkout opens soon.
+> Small fixed-price tools you run on your own machine, from an independent software studio. Checkout opens soon.
 
 ## Products
 - [Handover Pack](https://hand-crafter.github.io/handcraft/products/handover-pack.html): A code-health report and a draft handover runbook that you generate on your own copy of the code. Price: US$49. Status: On sale soon (download).
@@ -16,6 +16,6 @@
 - [Terms](https://hand-crafter.github.io/handcraft/terms.html)
 - [Refunds](https://hand-crafter.github.io/handcraft/refunds.html)
 - [Privacy](https://hand-crafter.github.io/handcraft/privacy.html)
-- [How these are made](https://hand-crafter.github.io/handcraft/how-made.html)
+- [How we test](https://hand-crafter.github.io/handcraft/how-made.html)
 
 Contact: handoverdesk@proton.me
